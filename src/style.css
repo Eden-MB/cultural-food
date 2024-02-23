@@ -1,9 +1,61 @@
+* {
+  background-color: #f8faff;
+  font-family: sans-serif;
+}
 h1 {
-  text-align: center;
-  font-size: 40px;
-  margin-top: 70px;
+  font-size: 38px;
+
+}
+.container {
+  margin: 120px auto;
+  max-width: 700px;
+}
+header {
+  margin-bottom: 50px;
+  width: 800px;
+}
+form {
+  padding: 30px;
+  background-color: #14213df6;
+  box-shadow: box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
+  border-radius: 10px;
+  margin-bottom: 30px;
+}
+.inputText {
+  font-size: 18px;
+  padding: 14px 24px;
+  border-radius: 20px;
+  width: 70%;
+  background-color: white;
+  border: none;
+  box-shadow: 0px 20px 60px rgba(65, 50, 100, 0.08);
+  line-height: 20px;
+  margin: 0 auto;
+}
+footer {
+  font-size: 13px;
+}
+.cultural-food {
+  font-size: 16px;
+  background-color: #fff;
+  padding: 20px;
+  height: 150px;
+  line-height: 2;
+  border-left: 3px solid #14213d;
+  background-color: #fca211d8;
+  box-shadow: box-shadow: rgba(0, 0, 0, 0.3) 0px 19px 38px, rgba(0, 0, 0, 0.22) 0px 15px 12px;
+}
+.submit-button {
+  font-size: 18px;
+  padding: 14px 24px;
+  border-radius: 20px;
+  width: 18%;
+  background-color: #fca211d8;
+  color: white;
+  border: none;
+  margin-left: 10px;
 }
 p {
-  text-align: center;
-  font-size: 18px;
+    color: white;
+    background-color: #14213df6 ;
 }
