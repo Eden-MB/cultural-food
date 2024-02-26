@@ -1,13 +1,21 @@
-function formClick(event) {
-  event.preventDefault();
-
-  new Typewriter(".cultural-food", {
-    strings:
-      "Ethiopian food is best described as a culinary adventure bursting with flavour, culture and religious history. It is certainly not for the faint of palates. ",
+function cusineResponse(response) {
+  new Typewriter("#poem", {
+    strings: response.data.answer;
     autoStart: true,
-    delay: 2,
+    delay: 1,
     cursor: "",
   });
 }
-let form = document.querySelector(".form");
-form.addEventListener("click", formClick);
+
+function generateCusine(event) {
+  event.preventDefault();
+  let inputResult = document.querySelector("#inputText");
+  let key = "aa101dfb7t3469957354ac7531fb152o";
+  let prompt = `Generate a cusine from ${inputResult.value}`;
+  let context = "";
+  let apiURL = `https://api.shecodes.io/ai/v1/generate?prompt=${prompt}&context=${context}&key=${key}`;
+  axios.get(apiURL).then(generateCusine);
+}
+generateCusine();
+let form = document.querySelector("#formElement");
+form.addEventListener("event", cusineResponse);

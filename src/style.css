@@ -1,12 +1,13 @@
 * {
-  background-color: #eee9cf;
+  background-color: #f9f7fe;
   font-family: Arial, Helvetica, sans-serif;
 }
 h1 {
-  font-size: 40px;
+  font-size: 42px;
   text-align: center;
   margin-top: 100px;
-  color: #14213d;
+  color: #16326e;
+  background-color: #f9f7fe;
 }
 .container {
   margin: 10px auto;
@@ -15,9 +16,9 @@ h1 {
   padding: 50px;
   box-shadow: rgba(17, 17, 26, 0.1) 0px 16px 56px,
     rgba(17, 17, 26, 0.1) 0px 24px 80px;
-  background-color: white;
+  background-color: #ffffff;
   border-radius: 10px;
-  border-left: 4px solid #14213d;
+  border-left: 4px solid #16326e;
 }
 
 header {
@@ -29,14 +30,15 @@ form {
   box-shadow: rgba(0, 0, 0, 0.35) 3px 1px 2px;
   border-radius: 20px;
   margin-bottom: 30px;
-  background-color: #d4cfb7;
+  background-color: #061c4d;
+  border-left: 4px solid #14213d;
 }
-.inputText {
-  font-size: 18px;
+#inputText {
+  font-size: 20px;
   padding: 14px 24px;
   border-radius: 20px;
   width: 70%;
-  background-color: white;
+  background-color: #f9f7fe;
   border: none;
   box-shadow: rgba(65, 50, 100, 0.08);
   line-height: 20px;
@@ -45,7 +47,7 @@ form {
 p,
 a {
   font-size: 16px;
-  background-color: white;
+  background-color: #f9f7fe;
 }
 a {
   font-weight: bold;
@@ -59,15 +61,15 @@ a {
   font-weight: 400;
   line-height: 2;
   box-shadow: 0px 4px 30px 0px rgba(39, 33, 66, 0.03);
-  background-color: white;
+  background-color: #ffffff;
 }
 .submit-button {
   font-size: 18px;
   padding: 14px 24px;
   border-radius: 20px;
   width: 20%;
-  background-color: #14213d;
-  color: white;
+  background-color: f9f7fe;
+  color: black;
   border: none;
   margin-left: 10px;
 }
