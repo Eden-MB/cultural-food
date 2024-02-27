@@ -1,54 +1,86 @@
+img {
+  position: relative;
+  bottom: 480px;
+  left: 700px;
+  height: 680px;
+  background-color: transparent;
+  border-bottom-right-radius: 50%;
+}
+
+.checking {
+  display: inline-flexbox;
+  flex-direction: column;
+}
 * {
   background-color: #f9f7fe;
   font-family: Arial, Helvetica, sans-serif;
+  background-image: url("https://purepng.com/public/uploads/large/purepng.com-chefcheftrained-professional-cookfood-preparationkitchenchefsexperienced-1421526670303qwiib.png");
+  background-repeat: no-repeat;
+  background-size: 300px;
+  background-color: transparent;
 }
 h1 {
   font-size: 42px;
   text-align: center;
   margin-top: 100px;
-  color: #16326e;
+  color: black;
   background-color: #f9f7fe;
 }
 .container {
   margin: 10px auto;
-  max-width: 700px;
+  max-width: 650px;
   height: 460px;
   padding: 50px;
   box-shadow: rgba(17, 17, 26, 0.1) 0px 16px 56px,
     rgba(17, 17, 26, 0.1) 0px 24px 80px;
   background-color: #ffffff;
   border-radius: 10px;
-  border-left: 4px solid #16326e;
+  border-left: 4px solid rgb(196, 15, 51);
+  display: block;
 }
 
 header {
   margin-bottom: 30px;
   width: 670px;
 }
+footer {
+  background-color: transparent;
+  text-align: center;
+  margin: 0 auto;
+}
 form {
   padding: 30px;
-  box-shadow: rgba(0, 0, 0, 0.35) 3px 1px 2px;
+  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
   border-radius: 20px;
   margin-bottom: 30px;
-  background-color: #061c4d;
-  border-left: 4px solid #14213d;
+  background-color: #f9f7fe;
 }
 #inputText {
   font-size: 20px;
   padding: 14px 24px;
   border-radius: 20px;
-  width: 70%;
-  background-color: #f9f7fe;
+  width: 66%;
+  background-color: white;
   border: none;
   box-shadow: rgba(65, 50, 100, 0.08);
   line-height: 20px;
   margin: 0 auto;
 }
+.intro {
+  max-width: 750px;
+  margin: auto;
+  font-size: 23px;
+  font-weight: normal;
+  line-height: 1.7;
+  font-family: Georgia, "Times New Roman", Times, serif;
+}
 p,
 a {
-  font-size: 16px;
-  background-color: #f9f7fe;
+  font-size: 20px;
+  background-color: transparent;
+  text-align: center;
 }
+
 a {
   font-weight: bold;
 }
@@ -68,8 +100,8 @@ a {
   padding: 14px 24px;
   border-radius: 20px;
   width: 20%;
-  background-color: f9f7fe;
-  color: black;
+  background-color: rgb(201, 8, 46);
+  color: white;
   border: none;
   margin-left: 10px;
 }
