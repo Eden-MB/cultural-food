@@ -7,17 +7,9 @@ img {
   border-bottom-right-radius: 50%;
 }
 
-.checking {
-  display: inline-flexbox;
-  flex-direction: column;
-}
 * {
   background-color: #f9f7fe;
   font-family: Arial, Helvetica, sans-serif;
-  background-image: url("https://purepng.com/public/uploads/large/purepng.com-chefcheftrained-professional-cookfood-preparationkitchenchefsexperienced-1421526670303qwiib.png");
-  background-repeat: no-repeat;
-  background-size: 300px;
-  background-color: transparent;
 }
 h1 {
   font-size: 42px;
@@ -46,7 +38,6 @@ header {
 footer {
   background-color: transparent;
   text-align: center;
-  margin: 0 auto;
 }
 form {
   padding: 30px;
@@ -66,6 +57,7 @@ form {
   line-height: 20px;
   margin: 0 auto;
 }
+
 .intro {
   max-width: 750px;
   margin: auto;
@@ -83,6 +75,7 @@ a {
 
 a {
   font-weight: bold;
+  color: #c9082e;
 }
 .cultural-food {
   font-size: 18px;
