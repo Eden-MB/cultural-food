@@ -2,7 +2,7 @@ function cusineResponse(response) {
   new Typewriter(".cultural-food", {
     strings: response.data.answer,
     autoStart: true,
-    delay: 1,
+    delay: 2,
     cursor: "",
   });
 }
