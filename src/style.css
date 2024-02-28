@@ -1,10 +1,16 @@
 img {
-  position: relative;
-  top: 100px;
-  left: 50px;
-  height: 150px;
   background-color: transparent;
   border-bottom-right-radius: 50%;
+  margin-top: 5px;
+  position: relative;
+  top: 270px;
+  left: 0px;
+}
+.word {
+  font-size: 50px;
+  font-family: Georgia, "Times New Roman", Times, serif;
+  color: black;
+  font-style: italic;
 }
 
 * {
@@ -14,9 +20,9 @@ img {
 h1 {
   font-size: 42px;
   text-align: center;
-  margin-top: 100px;
+  margin-top: 20px;
+  margin-left: 65px;
   color: black;
-  background-color: #f9f7fe;
 }
 
 header {
