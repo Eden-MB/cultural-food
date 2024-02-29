@@ -4,14 +4,20 @@ img {
   margin-top: 5px;
   position: relative;
   height: 130px;
-  right: 15px;
+  right: 10px;
   top: 10px;
 }
 .word {
-  font-size: 50px;
-  font-family: Georgia, "Times New Roman", Times, serif;
+  font-size: 55px;
+  font-family: Cambria, Cochin, Georgia, Times, "Times New Roman", serif;
   color: black;
-  font-style: italic;
+}
+.word2 {
+  color: #c9082e;
+  font-weight: bold;
+  font-size: 20px;
+ 
+  font-family;
 }
 
 * {
@@ -22,7 +28,6 @@ h1 {
   font-size: 40px;
   text-align: center;
   margin-top: 70px;
-  margin-left: 6px;
   color: black;
 }
 
